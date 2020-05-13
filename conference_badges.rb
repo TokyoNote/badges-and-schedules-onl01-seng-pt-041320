@@ -1,10 +1,10 @@
 speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def badge_maker(name)
-  "Hello, my name is #{name}." #the arguem
+  "Hello, my name is #{name}." #the argument name is a place holder for the speakers names
 end
 
-def batch_badge_creator(speakers)
+def batch_badge_creator(speakers) #takes each speaker and creates badges for each person
   speakers.map do |speaker|
     "Hello, my name is #{speaker}."
   end
